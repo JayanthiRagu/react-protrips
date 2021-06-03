@@ -1,0 +1,71 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    height:650px;
+    justify-content: center;
+    margin-left: 5px;
+    position:absolute;
+    z-index:50;
+}
+.header1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:200px;
+    cursor: pointer;
+}
+.heading{
+    font-size: x-large;
+}
+.label{
+    justify-self: end;
+}
+.input{
+    justify-self: start;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+    grid-column-gap: 10px;
+    justify-items: center;
+    grid-auto-flow: column;
+}
+.addComponent{
+    position: relative;
+    z-index:0;
+    color: white;
+}
+.displayType{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.listCount{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:90px;
+}
+.HomeComponent{
+    position: relative;
+    z-index:0;
+    margin-top: 100px;
+    color: white;
+}
+.listComponent{
+    position: relative;
+    z-index:0;
+    margin-top: 100px;
+    color: white;
+    justify-content: center;
+}
+.listDetails{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+}
+.listDetails1{
+    display: grid;
+    grid-template-rows: auto;
+
+}
